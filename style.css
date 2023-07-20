@@ -267,7 +267,7 @@ section {
 
 .footer {
 
-    /* background-color: rgb(131, 186, 250); */
+    background-color: rgb(131, 186, 250);
     padding: 1rem 0rem 2rem 0rem;
     display: flex;
     flex-direction: column;
