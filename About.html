@@ -35,64 +35,57 @@
             height: 6rem;
         }
 
-        .about-section {
-            /* background-color: #f9f9f9; */
-            padding: 20px;
-            color: whitesmoke;
-        }
-
-        body {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            background: url(Images/beach.jpg);
-            background-size: cover;
-            background-position: center;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            align-items: center;
-        }
-
-        h2 {
-            font-size: 3rem;
-            line-height: 1;
-            color: var(--bg-color);
-            font-family: 'Paytone One', sans-serif;
-            letter-spacing: 5px;
-            margin-bottom: 20px;
+        .hero {
             text-align: center;
-            font-size: 28px;
-            margin-bottom: 10px;
+            background-color: #f2f2f2;
         }
 
-        p {
-            font-size: 100px;
-            margin: 30px;
-            padding: 20px;
-            font-size: 16px;
-            line-height: 1.5;
+        .hero h1 {
+            font-size: 36px;
             margin-bottom: 20px;
         }
 
-        .mission
-        .offer {
-            margin-bottom: 30px;
+        .introduction h2 {
+            margin-top: 1rem;
+            text-align: center;
         }
 
-        h3 {
-            text-align: center;
+        .introduction p {
+            margin: 20px;
+            padding: 15px;
+        }
+
+        .introduction h2,
+        .mission-values h2,
+        .team-founders h2 {
             font-size: 24px;
             margin-bottom: 10px;
         }
 
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
+        .mission-values .value {
+            display: flex;
+            align-items: center;
+            margin: 20px;
         }
 
-        .conclusion {
-            font-style: italic;
-            color: #888;
+        .mission-values img {
+            /* width: 40px; */
+            margin-right: 10px;
+        }
+
+        .team-founders .members {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 300px;
+            border-radius: 50%;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -110,29 +103,88 @@
         </ul>
 
     </header>
-    <section class="about-section">
-        <h2>About Travel: Unleashing Adventures Around the Globe</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odio natus nesciunt quo praesentium at facere
-            ad quod rerum consectetur ratione obcaecati rem minus necessitatibus enim molestias, error sed in!</p>
-        <div class="mission">
-            <h3>Mission</h3>
-            <p>Our mission is to inspire, inform, and empower travelers by providing them with a comprehensive platform
-                that offers a wealth of travel-related content, resources, and community engagement. We strive to be the
-                go-to source for travel enthusiasts, catering to their diverse needs and interests, and fostering a
-                sense of wanderlust that fuels their desire to explore the world.</p>
-        </div>
-        <div class="offer">
-            <h3>What We Offer</h3>
-            <ul>
-                <li>Inspiring Travel Stories</li>
-                <li>Destination Guides</li>
-                <li>Travel Tips and Advice</li>
-                <li>Travel Resources</li>
-                <li>Engaging Community</li>
-            </ul>
-        </div>
+    <main>
+        
+        <section class="hero">
+            <h1>Welcome to our Travel World</h1>
+        </section>
+        
+        <section class="introduction">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, unde, nostrum magnam ipsa consectetur,
+                vitae quisquam ipsam libero at inventore hic ea suscipit deleniti veniam ab earum molestiae sapiente
+                molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, nisi. Repellendus praesentium
+                tenetur laborum nesciunt, ipsam consequatur nisi aliquid totam esse, hic non delectus in eaque nemo
+                facere unde dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam laboriosam
+                suscipit earum recusandae quia consequuntur blanditiis dolore, sequi nam voluptatibus vel consectetur
+                ipsum, in exercitationem nemo provident doloremque ut. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Totam ad at unde beatae! Natus sapiente quam architecto in reiciendis delectus
+                suscipit beatae omnis aliquam nostrum voluptatum, dignissimos, molestiae, quas fugit.</p>
+        </section>
+        
+        <section class="mission-values">
+            <h2 style="text-align: center;">Our Mission and Values</h2>
+            <div class="value">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, unde, nostrum magnam ipsa consectetur,
+                vitae quisquam ipsam libero at inventore hic ea suscipit deleniti veniam ab earum molestiae sapiente
+                molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, nisi. Repellendus praesentium
+                tenetur laborum nesciunt, ipsam consequatur nisi aliquid totam esse, hic non delectus in eaque nemo
+                facere unde dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam laboriosam
+                suscipit earum recusandae quia consequuntur blanditiis dolore, sequi nam voluptatibus vel consectetur
+                ipsum, in exercitationem nemo provident doloremque ut. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Totam ad at unde beatae! Natus sapiente quam architecto in reiciendis delectus
+                suscipit beatae omnis aliquam nostrum voluptatum, dignissimos, molestiae, quas fugit
+            </div>
 
-        <script src="https://kit.fontawesome.com/97ceb72cb8.js" crossorigin="anonymous"></script>
+        </section>
+
+        
+        <section class="team-founders">
+            <h2 style="text-align: center;">Meet Our Team</h2>
+            <div class="members">
+                <div class="team-member">
+                    <img src="Images/man1.jpg" alt="Team Member 1">
+                    <p>Name: John Doe</p>
+                    <p>Role: Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="Images/man2.jpg" alt="Team Member 2">
+                    <p>Name: Jane Smith</p>
+                    <p>Role: Co-Founder & COO</p>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-header">For More Details</div>
+
+        <ul>
+            <li class="list-inline">
+                <a class="list-inline-bg" href="https://www.instagram.com/rakshitrajput_/?next=%2F&hl=en"
+                    target="_blank">
+                    <i class="fa-brands fa-xl fa-instagram"></i>Instagram
+                </a>
+            </li>
+            <li class="list-inline list-inline-bg">
+                <a class="list-inline-bg" href="https://twitter.com/Rakshit25654369" target="_blank">
+                    <i class="fa-brands fa-xl fa-twitter"></i>Twitter
+                </a>
+            </li>
+            <li class="list-inline">
+                <a class="list-inline-bg" href="https://github.com/rrajput18" target="_blank">
+                    <i class="fa-brands fa-xl fa-github"></i>Github
+                </a>
+            </li>
+            <li class="list-inline">
+                <a class="list-inline-bg" href="https://www.linkedin.com/in/rakshit-rajput-0401a0283/" target="_blank">
+                    <i class="fa-brands fa-xl fa-linkedin"></i>linkedin
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/97ceb72cb8.js" crossorigin="anonymous"></script>
 
 </body>
 
