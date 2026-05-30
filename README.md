@@ -2,6 +2,8 @@
 
 Welcome to **Travelगुरु**, a modern, fully responsive, and interactive travel agency website. This project upgrades a legacy desktop layout into a premium, fluid experience optimized across mobile, tablet, laptop, and desktop viewports, while strictly preserving the brand's original light sky-blue and white theme.
 
+🌐 **Live Demo**: [https://travelguru99.netlify.app/](https://travelguru99.netlify.app/)
+
 ---
 
 ## 🚀 Key Features
