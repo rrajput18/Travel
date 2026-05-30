@@ -1,253 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelगुरु</title>
-    <link rel="icon" href="Images/Icons/plane-departure-solid (1).svg">
+    <title>Travelगुरु - Exclusive Tour Packages</title>
+    <link rel="icon" href="Images/Icons/plane-departure-solid.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-    <style>
-        header{
-            background-color: rgb(131, 186, 250);
-            position: absolute;
-        }
-        .title{
-            margin-top: 8rem;
-        }
-        .footer {
-            background-color: rgb(131, 186, 250);
-            padding: 1rem 0rem 2rem 0rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            /* color:white; */
-            text-align: center;
-            /* border-top-right-radius: 1rem; */
-            margin-top: 2rem;
-            height: 6rem;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a href="#" class="logo">Travelगुरु.</a>
-        <div class="menu" id="menu-logo"></div>
+    <header class="inner-header">
+        <a href="index.html" class="logo">Travelगुरु.</a>
+        <div class="nav-actions">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
         <ul class="navbar">
             <li><a href="index.html">Home</a></li>
-            <li><a href="package.html">Package</a></li>
+            <li><a href="package.html" class="active">Package</a></li>
             <li><a href="Destination.html">Destination</a></li>
             <li><a href="About.html">AboutUs</a></li>
-            
         </ul>
     </header>
+
     <section class="package" id="pag">
         <div class="title">
-            <h2>Upcoming Tours <br> Package</h2>
+            <h2>Upcoming Tours <br> Packages</h2>
         </div>
+        
         <div class="pag-con">
-            <div class="box">
-
-                <img src="Images/London.jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>London</h4>
+            <!-- London -->
+            <div class="box reveal">
+                <img src="Images/London.jpg" alt="London">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>London</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
                     </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-
-                <img src="Images/NewYork (1).jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>NewYork</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-
-                <img src="Images/Maldives (1).jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Maldives</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
                 </div>
             </div>
 
+            <!-- New York -->
+            <div class="box reveal">
+                <img src="Images/NewYork (1).jpg" alt="New York">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>NewYork</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Maldives -->
+            <div class="box reveal">
+                <img src="Images/Maldives (1).jpg" alt="Maldives">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Maldives</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Miami -->
+            <div class="box reveal">
+                <img src="Images/Miami (1).jpg" alt="Miami">
+                <div class="box-content">
+                    <h3>$699</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Miami</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Australia -->
+            <div class="box reveal">
+                <img src="Images/Australia (1).jpg" alt="Australia">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Australia</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Venice -->
+            <div class="box reveal">
+                <img src="Images/Venice.jpg" alt="Venice">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Venice</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Toronto -->
+            <div class="box reveal">
+                <img src="Images/Toranto.jpg" alt="Toronto">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Toronto</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Florida -->
+            <div class="box reveal">
+                <img src="Images/Florida.jpg" alt="Florida">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Florida</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
+
+            <!-- Rome -->
+            <div class="box reveal">
+                <img src="Images/Rome.jpg" alt="Rome">
+                <div class="box-content">
+                    <h3>$599</h3>
+                    <div class="dest-con">
+                        <div class="loc">
+                            <h4>Rome</h4>
+                        </div>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <button class="book-btn"><i class="fa-solid fa-plane-departure"></i> Book Now</button>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="package" id="pag">
-        <!-- <div class="title">
-            <h2>Upcoming Tours <br> Package</h2>
-        </div> -->
-        <div class="pag-con">
-            <div class="box">
 
-                <img src="Images/Miami (1).jpg" alt="">
-                <h3>$699</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Miami</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-
-                <img src="Images/Australia (1).jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Australia</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-
-                <img src="Images/Venice.jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Venice</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section class="package" id="pag">
-        <!-- <div class="title">
-            <h2>Upcoming Tours <br> Package</h2>
-        </div> -->
-        <div class="pag-con">
-            <div class="box">
-
-                <img src="Images/Toranto.jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Toranto</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-
-                <img src="Images/Florida.jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Florida</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-
-                <img src="Images/Rome.jpg" alt="">
-                <h3>$599</h3>
-                <div class="dest-con">
-                    <div class="loc">
-                        <h4>Rome</h4>
-                    </div>
-                    <div class="stars">
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                        <a href="#"><i class='bx bxs-star'></i></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
     <footer class="footer">
         <div class="footer-header">For More Details</div>
-        
         <ul>
-            <li class="list-inline">
+            <li>
                 <a class="list-inline-bg" href="https://www.instagram.com/rakshitrajput_/?next=%2F&hl=en" target="_blank">
-                    <i class="fa-brands fa-xl fa-instagram"></i>Instagram
+                    <i class="fa-brands fa-instagram"></i> Instagram
                 </a>
             </li>
-            <li class="list-inline list-inline-bg">
+            <li>
                 <a class="list-inline-bg" href="https://twitter.com/Rakshit25654369" target="_blank">
-                    <i class="fa-brands fa-xl fa-twitter"></i>Twitter
+                    <i class="fa-brands fa-twitter"></i> Twitter
                 </a>
             </li>
-            <li class="list-inline">
+            <li>
                 <a class="list-inline-bg" href="https://github.com/rrajput18" target="_blank">
-                    <i class="fa-brands fa-xl fa-github"></i>Github
+                    <i class="fa-brands fa-github"></i> Github
                 </a>
             </li>
-            <li class="list-inline">
+            <li>
                 <a class="list-inline-bg" href="https://www.linkedin.com/in/rakshit-rajput-0401a0283/" target="_blank">
-                    <i class="fa-brands fa-xl fa-linkedin"></i>linkedin
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
                 </a>
             </li>
         </ul>
     </footer>
+
+    <!-- Booking Modal -->
+    <div class="modal-overlay" id="booking-modal-overlay">
+        <div class="booking-modal">
+            <button class="close-modal-btn" id="close-modal-btn">&times;</button>
+            <div class="modal-header">
+                <h3 id="modal-title">Book Tour</h3>
+                <p id="modal-subtitle">Configure your trip details below</p>
+            </div>
+            <form class="booking-form" id="booking-form" autocomplete="off">
+                <div class="form-group">
+                    <label for="book-name">Full Name</label>
+                    <input type="text" id="book-name" required placeholder="John Doe">
+                </div>
+
+                <div class="form-group">
+                    <label for="book-date">Departure Date</label>
+                    <input type="date" id="book-date" required>
+                </div>
+                <div class="form-group">
+                    <label>Number of Travelers</label>
+                    <div class="guests-selector">
+                        <button type="button" class="guest-btn" id="decrease-guests">-</button>
+                        <span class="guests-count" id="guests-val">1</span>
+                        <button type="button" class="guest-btn" id="increase-guests">+</button>
+                    </div>
+                </div>
+                
+                <div class="booking-summary">
+                    <div class="summary-row">
+                        <span>Price per traveler</span>
+                        <span id="summary-base-price">$0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Travelers count</span>
+                        <span id="summary-guests-count">x 1</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Total Price</span>
+                        <span id="summary-total-price">$0</span>
+                    </div>
+                </div>
+                
+                <button type="submit" class="confirm-booking-btn">Confirm Reservation</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/97ceb72cb8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

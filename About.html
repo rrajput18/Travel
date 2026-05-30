@@ -4,188 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelगुरु</title>
-    <link rel="icon" href="Images/Icons/plane-departure-solid (1).svg">
+    <title>Travelगुरु - About Us</title>
+    <link rel="icon" href="Images/Icons/plane-departure-solid.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-    <style>
-        header {
-            background-color: rgb(131, 186, 250);
-            position: absolute;
-        }
-
-        .title {
-            margin-top: 8rem;
-        }
-
-        .footer {
-            background-color: rgb(131, 186, 250);
-            padding: 1rem 0rem 2rem 0rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            /* color:white; */
-            text-align: center;
-            /* border-top-right-radius: 1rem; */
-            margin-top: 2rem;
-            height: 6rem;
-        }
-
-        .hero {
-            text-align: center;
-            background-color: #f2f2f2;
-        }
-
-        .hero h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .introduction h2 {
-            margin-top: 1rem;
-            text-align: center;
-        }
-
-        .introduction p {
-            margin: 20px;
-            padding: 15px;
-        }
-
-        .introduction h2,
-        .mission-values h2,
-        .team-founders h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .mission-values .value {
-            display: flex;
-            align-items: center;
-            margin: 20px;
-        }
-
-        .mission-values img {
-            /* width: 40px; */
-            margin-right: 10px;
-        }
-
-        .team-founders .members {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .team-member {
-            text-align: center;
-        }
-
-        .team-member img {
-            width: 300px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo">Travelगुरु.</a>
-        <div class="menu" id="menu-logo"></div>
-
+    <header class="inner-header">
+        <a href="index.html" class="logo">Travelगुरु.</a>
+        <div class="nav-actions">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
         <ul class="navbar">
             <li><a href="index.html">Home</a></li>
             <li><a href="package.html">Package</a></li>
             <li><a href="Destination.html">Destination</a></li>
-            <li><a href="About.html">AboutUs</a></li>
+            <li><a href="About.html" class="active">AboutUs</a></li>
         </ul>
-
     </header>
+
+    <section class="hero-inner">
+        <h1>Welcome to our Travel World</h1>
+    </section>
+    
     <main>
-        
-        <section class="hero">
-            <h1>Welcome to our Travel World</h1>
-        </section>
-        
-        <section class="introduction">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, unde, nostrum magnam ipsa consectetur,
-                vitae quisquam ipsam libero at inventore hic ea suscipit deleniti veniam ab earum molestiae sapiente
-                molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, nisi. Repellendus praesentium
-                tenetur laborum nesciunt, ipsam consequatur nisi aliquid totam esse, hic non delectus in eaque nemo
-                facere unde dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam laboriosam
-                suscipit earum recusandae quia consequuntur blanditiis dolore, sequi nam voluptatibus vel consectetur
-                ipsum, in exercitationem nemo provident doloremque ut. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Totam ad at unde beatae! Natus sapiente quam architecto in reiciendis delectus
-                suscipit beatae omnis aliquam nostrum voluptatum, dignissimos, molestiae, quas fugit.</p>
-        </section>
-        
-        <section class="mission-values">
-            <h2 style="text-align: center;">Our Mission and Values</h2>
-            <div class="value">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, unde, nostrum magnam ipsa consectetur,
-                vitae quisquam ipsam libero at inventore hic ea suscipit deleniti veniam ab earum molestiae sapiente
-                molestias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, nisi. Repellendus praesentium
-                tenetur laborum nesciunt, ipsam consequatur nisi aliquid totam esse, hic non delectus in eaque nemo
-                facere unde dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsam laboriosam
-                suscipit earum recusandae quia consequuntur blanditiis dolore, sequi nam voluptatibus vel consectetur
-                ipsum, in exercitationem nemo provident doloremque ut. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Totam ad at unde beatae! Natus sapiente quam architecto in reiciendis delectus
-                suscipit beatae omnis aliquam nostrum voluptatum, dignissimos, molestiae, quas fugit
+        <section class="introduction reveal">
+            <div class="title">
+                <h2>About Us</h2>
             </div>
-
+            <p>Welcome to <strong>Travelगुरु</strong>, your ultimate companion in discovering the world’s most breathtaking destinations. Founded in 2023, we are a premier travel management agency dedicated to transforming ordinary trips into extraordinary lifetime adventures. We believe that travel is not just about visiting new places, but about immersing yourself in diverse cultures, connecting with nature, and creating unforgettable memories. Our team of passionate travel experts curates bespoke, luxury, and budget-friendly tour packages tailored to your unique wanderlust desires. From the tranquil beaches of Bali to the historic peaks of Machu Picchu and the majestic Alps of Switzerland, we handle every detail of your journey so you can focus solely on exploring.</p>
+        </section>
+        
+        <section class="mission-values reveal">
+            <div class="title">
+                <h2>Our Mission and Values</h2>
+            </div>
+            <div class="value" style="display: flex; flex-direction: column; gap: 20px;">
+                <p><strong>Our Mission:</strong> At Travelगुरु, our mission is to make international and domestic travel seamless, accessible, and deeply enriching for everyone. We strive to connect passionate travelers with authentic local experiences, fostering cultural appreciation and sustainable tourism.</p>
+                <div style="margin-top: 10px;">
+                    <p style="font-weight: 600; margin-bottom: 10px;">Our Core Values:</p>
+                    <ul style="display: flex; flex-direction: column; gap: 8px; text-align: left; max-width: 800px; margin: 0 auto; list-style-type: disc; padding-left: 20px;">
+                        <li style="list-style: disc;"><strong>Customer First:</strong> We put our travelers at the heart of everything we do, offering dedicated support and custom-tailored itineraries.</li>
+                        <li style="list-style: disc;"><strong>Authenticity:</strong> We partner with local guides and communities to deliver genuine cultural immersions.</li>
+                        <li style="list-style: disc;"><strong>Integrity:</strong> We provide completely transparent pricing, honest trip recommendations, and no hidden booking fees.</li>
+                        <li style="list-style: disc;"><strong>Innovation:</strong> We utilize modern travel technologies and real-time guides to keep your journeys safe, structured, and stress-free.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        
-        <section class="team-founders">
-            <h2 style="text-align: center;">Meet Our Team</h2>
+        <section class="team-founders reveal">
+            <div class="title">
+                <h2>Meet Our Team</h2>
+            </div>
             <div class="members">
                 <div class="team-member">
                     <img src="Images/man1.jpg" alt="Team Member 1">
                     <p>Name: John Doe</p>
-                    <p>Role: Founder & CEO</p>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Role: Founder & CEO</p>
                 </div>
                 <div class="team-member">
                     <img src="Images/man2.jpg" alt="Team Member 2">
                     <p>Name: Jane Smith</p>
-                    <p>Role: Co-Founder & COO</p>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Role: Co-Founder & COO</p>
                 </div>
             </div>
-           
         </section>
     </main>
+
     <footer class="footer">
         <div class="footer-header">For More Details</div>
-
         <ul>
-            <li class="list-inline">
-                <a class="list-inline-bg" href="https://www.instagram.com/rakshitrajput_/?next=%2F&hl=en"
-                    target="_blank">
-                    <i class="fa-brands fa-xl fa-instagram"></i>Instagram
+            <li>
+                <a class="list-inline-bg" href="https://www.instagram.com/rakshitrajput_/?next=%2F&hl=en" target="_blank">
+                    <i class="fa-brands fa-instagram"></i> Instagram
                 </a>
             </li>
-            <li class="list-inline list-inline-bg">
+            <li>
                 <a class="list-inline-bg" href="https://twitter.com/Rakshit25654369" target="_blank">
-                    <i class="fa-brands fa-xl fa-twitter"></i>Twitter
+                    <i class="fa-brands fa-twitter"></i> Twitter
                 </a>
             </li>
-            <li class="list-inline">
+            <li>
                 <a class="list-inline-bg" href="https://github.com/rrajput18" target="_blank">
-                    <i class="fa-brands fa-xl fa-github"></i>Github
+                    <i class="fa-brands fa-github"></i> Github
                 </a>
             </li>
-            <li class="list-inline">
+            <li>
                 <a class="list-inline-bg" href="https://www.linkedin.com/in/rakshit-rajput-0401a0283/" target="_blank">
-                    <i class="fa-brands fa-xl fa-linkedin"></i>linkedin
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
                 </a>
             </li>
         </ul>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/97ceb72cb8.js" crossorigin="anonymous"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
